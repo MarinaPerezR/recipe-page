@@ -21,7 +21,6 @@ h2 {
   font-family: "Young Serif", serif;
 }
 
-
 h2 {
   color: hsl(14, 45%, 36%);
   font-size: 23px;
@@ -39,20 +38,17 @@ table {
 }
 
 hr {
-  border: 1px solid hsl(30, 18%, 87%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 
 figure {
   margin: 0;
-
 }
 
 img {
   width: 100%;
   display: block;
   border-radius: 10px;
-  
 }
 
 header h1 {
@@ -126,6 +122,25 @@ header p {
   font-family: "Outfit", serif;
   font-size: 13px;
   font-weight: 700;
+}
+
+.nutrition-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-container table td {
+  padding: 10px 26px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.nutrition-container table tr:last-child td {
+  border-bottom: none;
+}
+
+.nutrition-container td strong {
+  color: hsl(14, 45%, 36%);
 }
 
 .attribution {

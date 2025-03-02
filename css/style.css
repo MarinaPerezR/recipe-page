@@ -24,11 +24,14 @@ h2 {
 
 h2 {
   color: hsl(14, 45%, 36%);
+  font-size: 23px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 p,
 ul,
+ol,
 table {
   font-family: "Outfit", serif;
   font-size: 13px;
@@ -108,8 +111,21 @@ header p {
   font-size: 10px;
 }
 
-.ingredients-container h2 {
-  margin-bottom: 10px;
+.instructions-container ol {
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.instructions-container li {
+  padding: 5px 15px;
+}
+
+.instructions-container li::marker {
+  color: hsl(14, 45%, 36%);
+  font-family: "Outfit", serif;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .attribution {
